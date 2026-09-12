@@ -12,6 +12,13 @@ nav {
   display: flex;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  max-height: 50vh;
+  padding: 20px;
+}
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -20,6 +27,10 @@ nav {
   align-items: center;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.purple {
+  color: #734266;
 }
 
 .logo {
@@ -55,4 +66,64 @@ text-decoration: underline;
 
 .nav__link--primary:hover {
 text-decoration: none;
+}
+
+#landing {
+background-color: rgba(115, 66, 102, 0.1);
+}
+
+header {
+  height: calc(100vh - 80px);
+}
+
+.header__container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px;
+  color: #734266;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.btn {
+  background-color: #734266;
+  color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+}
+
+.header__img--wrapper {
+  padding: 20px;
 }
